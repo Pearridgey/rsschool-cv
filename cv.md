@@ -1,8 +1,13 @@
 # Artyom Zhuravkov
-### **tg** *@pearridge* **discord** *@pearridge* **github** *@pearridgey*
-***
+ **tg** *@pearridge* **discord** *@pearridge* **github** *@pearridgey*
+
 ## About
-### tryna do smth (please hire me)
-***
+tryna do smth (please hire me)
+
 ## Skills
-### knowledge of html, css, some js and ts. Proficient at vibecoding
+ knowledge of html, css, some js and ts, git. Proficient at vibecoding.
+C3 level English
+
+## Code example
+
+`alert ('Вітаначкі!')`
