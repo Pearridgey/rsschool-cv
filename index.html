@@ -16,18 +16,65 @@
             <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
             <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
             <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-            <li class="nav-item"><a href="#example" class="nav-link">Example</a></li>
-            <li class="nav-item"><a href="#English" class="nav-link">English</a></li>
+            <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+            <li class="nav-item"><a href="english" class="nav-link">English</a></li>
+            
         </ul>
        </nav>
     </header>
     
     <section class="main-title">
-        <img class="avatar" src="Peace_symbol_(bold).svg.png" alt="avatar">
-        <h1 class="title">Artyom Zhuravkov</h1>
+        <img class="avatar" src=".\assets\svg\Peace_symbol_(bold).svg.png" alt="avatar">
+       <div class="main-right">
+        <h1 class="name">Artyom Zhuravkov</h1>
+        <ul class="contacts" id="contacts">
+            <li class="contacts-item">tg: @pearridge</li>
+            <li class="contacts-item">discord: @pearridgey</li>
+            <li class="contacts-item">github: @pearridgey</li>
+        </ul>
+       </div>
     </section>
 
-    <div class="divider">e</div>
+  <section class="divider"></section>
     
+
+  <main class="info">
+ 
+<section class="infobox" id="skills">
+  <h2 class="infobox-title">Skills</h2>
+  <h3 class="infobox-text">Knowledge of html, css, some js and ts, git. Proficient at vibecoding. <br> Creative, adaptable to new environments. Great problem solving.Critical thinking.<br>
+    Analytical mindset.Creative problem-solving.Strategic thinking.Curiosity & willingness to learn.<br>Communication (written & verbal).Teamwork & collaboration.Empathy
+
+
+Giving & receiving feedback</h3>
+</section>
+
+<section class="infobox" id="code">
+  <h2 class="infobox-title">Code</h2>
+  <code class="infobox-text"> document.addEventListener('mousemove', e => {
+  const dot = document.createElement('div');
+  dot.style = `position:fixed;left:${e.clientX}px;top:${e.clientY}px;width:8px;height:8px;
+               background:${getRandomColor()};border-radius:50%;pointer-events:none;z-index:1000`;
+  document.body.appendChild(dot);
+  setTimeout(() => dot.remove(), 500);
+});
+function getRandomColor() {
+  return `hsl(${Math.random()*360}, 70%, 60%)`;
+}
+
+  </code>
+</section>
+
+<section class="infobox" id="courses">
+  <h2 class="infobox-title">Courses</h2>
+  <h3 class="infobox-text">"Веб-разработка для начинающих: HTML и CSS" by STEPIK<br> "Создание сайтов. Основы веб-дизайна" and "Веб-разработка Базовый курс" by MelaRossa</h3>
+</section>
+
+<section class="infobox" id="english">
+  <h2 class="infobox-title">English</h2>
+  <h3 class="infobox-text">C3 level English. Almost won state olimpyad</h3>
+</section>
+
+</main>
 </body>
 </html>
