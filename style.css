@@ -37,7 +37,7 @@ body {
 .main-title {
 display: flex;
 justify-content: space-around;
-padding: 50px 0;
+padding: 49px 0;
 }
 
 .name {
@@ -102,3 +102,20 @@ color: #333333;
   transition: background-color 0.5s, box-shadow 0.5s;
 }
 
+.footer{
+     background-color: #DAD7CD;
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     opacity: 0.8;
+    align-items: center;
+    padding: 0;
+    gap: 10px; 
+}
+
+
+
+.rs-school-logo{
+    width: 250px;
+    height: 125px;
+}
